@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+    background-color: black;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+header,
+navi {
+    color: white
+}
+
+
+li,
+a,
+button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 2em;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169.1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169.0.8);
+}
+
+.list {
+    text-align: center;
+}
+
+.mapouterright {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.mapouterleft {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 600px;
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 600px;
+}
+
+.right {
+    text-align: right;
+    padding: 80px 0px 0px 0px;
+}
+
+.left {
+    text-align: left;
+    padding: 80px 0px 0px 0px;
+}
+
+.smalllink {
+font-size: 1em;
+text-decoration:underline;
+}
+
+footer {
+padding: 200px 0px 0px 0px;
+}
